@@ -1,3 +1,3 @@
-const {startServer} = require('shaked-super-server');
+const {startServer} = require('./lib/appServer.js');
 
 startServer();

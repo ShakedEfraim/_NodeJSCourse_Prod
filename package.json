@@ -1,0 +1,18 @@
+{
+  "name": "shaked-super-server",
+  "version": "1.0.0",  
+  "description": "All you can do server",
+  "main": "lib/appServer.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shaked Efraim",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

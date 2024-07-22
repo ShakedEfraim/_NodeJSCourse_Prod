@@ -1,7 +1,7 @@
 let ws;
 
 function connectWebSocket(){
-    ws = new WebSocket('ws://localhost:3000');
+    ws = new WebSocket('wss://nodejscourse-prod-xvea.onrender.com');
 
     ws.onopen = () =>{
         console.log('Connected to the ws server');
